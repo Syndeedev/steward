@@ -4,7 +4,15 @@ module.exports = {
     darkMode: false, 
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'steward-green': '#12B76A',
+        'steward-gray': '#344054',
+      },
+      screens: {
+        'xs': '320px',
+    },
+  }
   },
   plugins: [],
 }
