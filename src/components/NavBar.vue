@@ -18,7 +18,7 @@
           <ul
             class="flex mb-0 list-none flex-wrap flex-row border rounded-full border-gray-100"
           >
-            <li class="flex-auto text-center">
+            <li class="flex-auto text-center cursor-pointer">
               <a
                 class="text-xs font-bold px-3 py-1 block leading-normal"
                 v-on:click="toggleTabs(1)"
@@ -31,7 +31,7 @@
                 <i class="fas fa-space-shuttle text-base mr-1"></i> Admin View
               </a>
             </li>
-            <li class="flex-auto text-center">
+            <li class="flex-auto text-center cursor-pointer">
               <a
                 class="text-xs font-bold px-3 py-1 block leading-normal"
                 v-on:click="toggleTabs(2)"
